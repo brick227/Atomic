@@ -1,0 +1,2258 @@
+[
+  {
+    "id": "CMMC-AC-001",
+    "framework": "CMMC",
+    "domain": "AC",
+    "title": "AC Control 1",
+    "description": "Prototype description for CMMC AC control 1.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-11",
+      "ISO-A.6.3"
+    ]
+  },
+  {
+    "id": "NIST-AT-002",
+    "framework": "NIST 800-171",
+    "domain": "AT",
+    "title": "AT Control 2",
+    "description": "Prototype description for NIST 800-171 AT control 2.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-25"
+    ]
+  },
+  {
+    "id": "ISO-AU-003",
+    "framework": "ISO 27001",
+    "domain": "AU",
+    "title": "AU Control 3",
+    "description": "Prototype description for ISO 27001 AU control 3.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "low",
+    "time": "long",
+    "owner": "System Owner",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-5",
+      "ISO-A.14.5"
+    ]
+  },
+  {
+    "id": "SOC-CM-004",
+    "framework": "SOC 2",
+    "domain": "CM",
+    "title": "CM Control 4",
+    "description": "Prototype description for SOC 2 CM control 4.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-19",
+      "ISO-A.6.1"
+    ]
+  },
+  {
+    "id": "PCI-IA-005",
+    "framework": "PCI DSS",
+    "domain": "IA",
+    "title": "IA Control 5",
+    "description": "Prototype description for PCI DSS IA control 5.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "System Owner",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.9.2"
+    ]
+  },
+  {
+    "id": "CMMC-IR-006",
+    "framework": "CMMC",
+    "domain": "IR",
+    "title": "IR Control 6",
+    "description": "Prototype description for CMMC IR control 6.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-4",
+      "ISO-A.11.3"
+    ]
+  },
+  {
+    "id": "NIST-MA-007",
+    "framework": "NIST 800-171",
+    "domain": "MA",
+    "title": "MA Control 7",
+    "description": "Prototype description for NIST 800-171 MA control 7.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-23"
+    ]
+  },
+  {
+    "id": "ISO-MP-008",
+    "framework": "ISO 27001",
+    "domain": "MP",
+    "title": "MP Control 8",
+    "description": "Prototype description for ISO 27001 MP control 8.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-17",
+      "ISO-A.10.2"
+    ]
+  },
+  {
+    "id": "SOC-PE-009",
+    "framework": "SOC 2",
+    "domain": "PE",
+    "title": "PE Control 9",
+    "description": "Prototype description for SOC 2 PE control 9.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.9.5"
+    ]
+  },
+  {
+    "id": "PCI-PS-010",
+    "framework": "PCI DSS",
+    "domain": "PS",
+    "title": "PS Control 10",
+    "description": "Prototype description for PCI DSS PS control 10.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.14.3"
+    ]
+  },
+  {
+    "id": "CMMC-RA-011",
+    "framework": "CMMC",
+    "domain": "RA",
+    "title": "RA Control 11",
+    "description": "Prototype description for CMMC RA control 11.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.15.1"
+    ]
+  },
+  {
+    "id": "NIST-SC-012",
+    "framework": "NIST 800-171",
+    "domain": "SC",
+    "title": "SC Control 12",
+    "description": "Prototype description for NIST 800-171 SC control 12.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "IT Ops",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-3"
+    ]
+  },
+  {
+    "id": "ISO-SI-013",
+    "framework": "ISO 27001",
+    "domain": "SI",
+    "title": "SI Control 13",
+    "description": "Prototype description for ISO 27001 SI control 13.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "IT Ops",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-7",
+      "ISO-A.13.1"
+    ]
+  },
+  {
+    "id": "SOC-AC-014",
+    "framework": "SOC 2",
+    "domain": "AC",
+    "title": "AC Control 14",
+    "description": "Prototype description for SOC 2 AC control 14.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-5",
+      "ISO-A.18.6"
+    ]
+  },
+  {
+    "id": "PCI-AT-015",
+    "framework": "PCI DSS",
+    "domain": "AT",
+    "title": "AT Control 15",
+    "description": "Prototype description for PCI DSS AT control 15.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "high",
+    "time": "long",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.5.2"
+    ]
+  },
+  {
+    "id": "CMMC-AU-016",
+    "framework": "CMMC",
+    "domain": "AU",
+    "title": "AU Control 16",
+    "description": "Prototype description for CMMC AU control 16.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "high",
+    "time": "short",
+    "owner": "System Owner",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-14",
+      "ISO-A.16.4"
+    ]
+  },
+  {
+    "id": "NIST-CM-017",
+    "framework": "NIST 800-171",
+    "domain": "CM",
+    "title": "CM Control 17",
+    "description": "Prototype description for NIST 800-171 CM control 17.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-19"
+    ]
+  },
+  {
+    "id": "ISO-IA-018",
+    "framework": "ISO 27001",
+    "domain": "IA",
+    "title": "IA Control 18",
+    "description": "Prototype description for ISO 27001 IA control 18.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.13.7"
+    ]
+  },
+  {
+    "id": "SOC-IR-019",
+    "framework": "SOC 2",
+    "domain": "IR",
+    "title": "IR Control 19",
+    "description": "Prototype description for SOC 2 IR control 19.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-22",
+      "ISO-A.5.5"
+    ]
+  },
+  {
+    "id": "PCI-MA-020",
+    "framework": "PCI DSS",
+    "domain": "MA",
+    "title": "MA Control 20",
+    "description": "Prototype description for PCI DSS MA control 20.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-6",
+      "ISO-A.9.9"
+    ]
+  },
+  {
+    "id": "CMMC-MP-021",
+    "framework": "CMMC",
+    "domain": "MP",
+    "title": "MP Control 21",
+    "description": "Prototype description for CMMC MP control 21.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-22",
+      "ISO-A.18.5"
+    ]
+  },
+  {
+    "id": "NIST-PE-022",
+    "framework": "NIST 800-171",
+    "domain": "PE",
+    "title": "PE Control 22",
+    "description": "Prototype description for NIST 800-171 PE control 22.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "long",
+    "owner": "System Owner",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-23"
+    ]
+  },
+  {
+    "id": "ISO-PS-023",
+    "framework": "ISO 27001",
+    "domain": "PS",
+    "title": "PS Control 23",
+    "description": "Prototype description for ISO 27001 PS control 23.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "System Owner",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-9",
+      "ISO-A.12.8"
+    ]
+  },
+  {
+    "id": "SOC-RA-024",
+    "framework": "SOC 2",
+    "domain": "RA",
+    "title": "RA Control 24",
+    "description": "Prototype description for SOC 2 RA control 24.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.14.8"
+    ]
+  },
+  {
+    "id": "PCI-SC-025",
+    "framework": "PCI DSS",
+    "domain": "SC",
+    "title": "SC Control 25",
+    "description": "Prototype description for PCI DSS SC control 25.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-11",
+      "ISO-A.8.5"
+    ]
+  },
+  {
+    "id": "CMMC-SI-026",
+    "framework": "CMMC",
+    "domain": "SI",
+    "title": "SI Control 26",
+    "description": "Prototype description for CMMC SI control 26.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.10.3"
+    ]
+  },
+  {
+    "id": "NIST-AC-027",
+    "framework": "NIST 800-171",
+    "domain": "AC",
+    "title": "AC Control 27",
+    "description": "Prototype description for NIST 800-171 AC control 27.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-6"
+    ]
+  },
+  {
+    "id": "ISO-AT-028",
+    "framework": "ISO 27001",
+    "domain": "AT",
+    "title": "AT Control 28",
+    "description": "Prototype description for ISO 27001 AT control 28.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-5",
+      "ISO-A.7.4"
+    ]
+  },
+  {
+    "id": "SOC-AU-029",
+    "framework": "SOC 2",
+    "domain": "AU",
+    "title": "AU Control 29",
+    "description": "Prototype description for SOC 2 AU control 29.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-3",
+      "ISO-A.5.9"
+    ]
+  },
+  {
+    "id": "PCI-CM-030",
+    "framework": "PCI DSS",
+    "domain": "CM",
+    "title": "CM Control 30",
+    "description": "Prototype description for PCI DSS CM control 30.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "low",
+    "time": "short",
+    "owner": "IT Ops",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.14.5"
+    ]
+  },
+  {
+    "id": "CMMC-IA-031",
+    "framework": "CMMC",
+    "domain": "IA",
+    "title": "IA Control 31",
+    "description": "Prototype description for CMMC IA control 31.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.5.5"
+    ]
+  },
+  {
+    "id": "NIST-IR-032",
+    "framework": "NIST 800-171",
+    "domain": "IR",
+    "title": "IR Control 32",
+    "description": "Prototype description for NIST 800-171 IR control 32.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-19"
+    ]
+  },
+  {
+    "id": "ISO-MA-033",
+    "framework": "ISO 27001",
+    "domain": "MA",
+    "title": "MA Control 33",
+    "description": "Prototype description for ISO 27001 MA control 33.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Compliance Office",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-12",
+      "ISO-A.5.4"
+    ]
+  },
+  {
+    "id": "SOC-MP-034",
+    "framework": "SOC 2",
+    "domain": "MP",
+    "title": "MP Control 34",
+    "description": "Prototype description for SOC 2 MP control 34.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "low",
+    "time": "short",
+    "owner": "IT Ops",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.7.4"
+    ]
+  },
+  {
+    "id": "PCI-PE-035",
+    "framework": "PCI DSS",
+    "domain": "PE",
+    "title": "PE Control 35",
+    "description": "Prototype description for PCI DSS PE control 35.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.10.3"
+    ]
+  },
+  {
+    "id": "CMMC-PS-036",
+    "framework": "CMMC",
+    "domain": "PS",
+    "title": "PS Control 36",
+    "description": "Prototype description for CMMC PS control 36.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.16.2"
+    ]
+  },
+  {
+    "id": "NIST-RA-037",
+    "framework": "NIST 800-171",
+    "domain": "RA",
+    "title": "RA Control 37",
+    "description": "Prototype description for NIST 800-171 RA control 37.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-5"
+    ]
+  },
+  {
+    "id": "ISO-SC-038",
+    "framework": "ISO 27001",
+    "domain": "SC",
+    "title": "SC Control 38",
+    "description": "Prototype description for ISO 27001 SC control 38.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "System Owner",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-16",
+      "ISO-A.6.6"
+    ]
+  },
+  {
+    "id": "SOC-SI-039",
+    "framework": "SOC 2",
+    "domain": "SI",
+    "title": "SI Control 39",
+    "description": "Prototype description for SOC 2 SI control 39.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-17",
+      "ISO-A.11.1"
+    ]
+  },
+  {
+    "id": "PCI-AC-040",
+    "framework": "PCI DSS",
+    "domain": "AC",
+    "title": "AC Control 40",
+    "description": "Prototype description for PCI DSS AC control 40.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-1",
+      "ISO-A.6.3"
+    ]
+  },
+  {
+    "id": "CMMC-AT-041",
+    "framework": "CMMC",
+    "domain": "AT",
+    "title": "AT Control 41",
+    "description": "Prototype description for CMMC AT control 41.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-3",
+      "ISO-A.5.4"
+    ]
+  },
+  {
+    "id": "NIST-AU-042",
+    "framework": "NIST 800-171",
+    "domain": "AU",
+    "title": "AU Control 42",
+    "description": "Prototype description for NIST 800-171 AU control 42.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-20"
+    ]
+  },
+  {
+    "id": "ISO-CM-043",
+    "framework": "ISO 27001",
+    "domain": "CM",
+    "title": "CM Control 43",
+    "description": "Prototype description for ISO 27001 CM control 43.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-10",
+      "ISO-A.13.3"
+    ]
+  },
+  {
+    "id": "SOC-IA-044",
+    "framework": "SOC 2",
+    "domain": "IA",
+    "title": "IA Control 44",
+    "description": "Prototype description for SOC 2 IA control 44.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-12",
+      "ISO-A.6.7"
+    ]
+  },
+  {
+    "id": "PCI-IR-045",
+    "framework": "PCI DSS",
+    "domain": "IR",
+    "title": "IR Control 45",
+    "description": "Prototype description for PCI DSS IR control 45.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.14.8"
+    ]
+  },
+  {
+    "id": "CMMC-MA-046",
+    "framework": "CMMC",
+    "domain": "MA",
+    "title": "MA Control 46",
+    "description": "Prototype description for CMMC MA control 46.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-10",
+      "ISO-A.10.5"
+    ]
+  },
+  {
+    "id": "NIST-MP-047",
+    "framework": "NIST 800-171",
+    "domain": "MP",
+    "title": "MP Control 47",
+    "description": "Prototype description for NIST 800-171 MP control 47.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "System Owner",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-12"
+    ]
+  },
+  {
+    "id": "ISO-PE-048",
+    "framework": "ISO 27001",
+    "domain": "PE",
+    "title": "PE Control 48",
+    "description": "Prototype description for ISO 27001 PE control 48.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-16",
+      "ISO-A.14.7"
+    ]
+  },
+  {
+    "id": "SOC-PS-049",
+    "framework": "SOC 2",
+    "domain": "PS",
+    "title": "PS Control 49",
+    "description": "Prototype description for SOC 2 PS control 49.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-11",
+      "ISO-A.17.2"
+    ]
+  },
+  {
+    "id": "PCI-RA-050",
+    "framework": "PCI DSS",
+    "domain": "RA",
+    "title": "RA Control 50",
+    "description": "Prototype description for PCI DSS RA control 50.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "long",
+    "owner": "System Owner",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-5",
+      "ISO-A.11.3"
+    ]
+  },
+  {
+    "id": "CMMC-SC-051",
+    "framework": "CMMC",
+    "domain": "SC",
+    "title": "SC Control 51",
+    "description": "Prototype description for CMMC SC control 51.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-17",
+      "ISO-A.10.4"
+    ]
+  },
+  {
+    "id": "NIST-SI-052",
+    "framework": "NIST 800-171",
+    "domain": "SI",
+    "title": "SI Control 52",
+    "description": "Prototype description for NIST 800-171 SI control 52.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-1"
+    ]
+  },
+  {
+    "id": "ISO-AC-053",
+    "framework": "ISO 27001",
+    "domain": "AC",
+    "title": "AC Control 53",
+    "description": "Prototype description for ISO 27001 AC control 53.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-13",
+      "ISO-A.10.3"
+    ]
+  },
+  {
+    "id": "SOC-AT-054",
+    "framework": "SOC 2",
+    "domain": "AT",
+    "title": "AT Control 54",
+    "description": "Prototype description for SOC 2 AT control 54.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-13",
+      "ISO-A.16.3"
+    ]
+  },
+  {
+    "id": "PCI-AU-055",
+    "framework": "PCI DSS",
+    "domain": "AU",
+    "title": "AU Control 55",
+    "description": "Prototype description for PCI DSS AU control 55.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-12",
+      "ISO-A.7.7"
+    ]
+  },
+  {
+    "id": "CMMC-CM-056",
+    "framework": "CMMC",
+    "domain": "CM",
+    "title": "CM Control 56",
+    "description": "Prototype description for CMMC CM control 56.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-14",
+      "ISO-A.17.2"
+    ]
+  },
+  {
+    "id": "NIST-IA-057",
+    "framework": "NIST 800-171",
+    "domain": "IA",
+    "title": "IA Control 57",
+    "description": "Prototype description for NIST 800-171 IA control 57.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-9"
+    ]
+  },
+  {
+    "id": "ISO-IR-058",
+    "framework": "ISO 27001",
+    "domain": "IR",
+    "title": "IR Control 58",
+    "description": "Prototype description for ISO 27001 IR control 58.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-10",
+      "ISO-A.5.9"
+    ]
+  },
+  {
+    "id": "SOC-MA-059",
+    "framework": "SOC 2",
+    "domain": "MA",
+    "title": "MA Control 59",
+    "description": "Prototype description for SOC 2 MA control 59.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "System Owner",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-4",
+      "ISO-A.12.8"
+    ]
+  },
+  {
+    "id": "PCI-MP-060",
+    "framework": "PCI DSS",
+    "domain": "MP",
+    "title": "MP Control 60",
+    "description": "Prototype description for PCI DSS MP control 60.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.13.1"
+    ]
+  },
+  {
+    "id": "CMMC-PE-061",
+    "framework": "CMMC",
+    "domain": "PE",
+    "title": "PE Control 61",
+    "description": "Prototype description for CMMC PE control 61.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "System Owner",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.5.1"
+    ]
+  },
+  {
+    "id": "NIST-PS-062",
+    "framework": "NIST 800-171",
+    "domain": "PS",
+    "title": "PS Control 62",
+    "description": "Prototype description for NIST 800-171 PS control 62.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "short",
+    "owner": "IT Ops",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-12"
+    ]
+  },
+  {
+    "id": "ISO-RA-063",
+    "framework": "ISO 27001",
+    "domain": "RA",
+    "title": "RA Control 63",
+    "description": "Prototype description for ISO 27001 RA control 63.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-22",
+      "ISO-A.13.6"
+    ]
+  },
+  {
+    "id": "SOC-SC-064",
+    "framework": "SOC 2",
+    "domain": "SC",
+    "title": "SC Control 64",
+    "description": "Prototype description for SOC 2 SC control 64.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "high",
+    "time": "short",
+    "owner": "System Owner",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-3",
+      "ISO-A.9.4"
+    ]
+  },
+  {
+    "id": "PCI-SI-065",
+    "framework": "PCI DSS",
+    "domain": "SI",
+    "title": "SI Control 65",
+    "description": "Prototype description for PCI DSS SI control 65.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Compliance Office",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.17.3"
+    ]
+  },
+  {
+    "id": "CMMC-AC-066",
+    "framework": "CMMC",
+    "domain": "AC",
+    "title": "AC Control 66",
+    "description": "Prototype description for CMMC AC control 66.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "high",
+    "time": "long",
+    "owner": "IT Ops",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-9",
+      "ISO-A.15.7"
+    ]
+  },
+  {
+    "id": "NIST-AT-067",
+    "framework": "NIST 800-171",
+    "domain": "AT",
+    "title": "AT Control 67",
+    "description": "Prototype description for NIST 800-171 AT control 67.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-25"
+    ]
+  },
+  {
+    "id": "ISO-AU-068",
+    "framework": "ISO 27001",
+    "domain": "AU",
+    "title": "AU Control 68",
+    "description": "Prototype description for ISO 27001 AU control 68.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-1",
+      "ISO-A.10.1"
+    ]
+  },
+  {
+    "id": "SOC-CM-069",
+    "framework": "SOC 2",
+    "domain": "CM",
+    "title": "CM Control 69",
+    "description": "Prototype description for SOC 2 CM control 69.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-11",
+      "ISO-A.11.1"
+    ]
+  },
+  {
+    "id": "PCI-IA-070",
+    "framework": "PCI DSS",
+    "domain": "IA",
+    "title": "IA Control 70",
+    "description": "Prototype description for PCI DSS IA control 70.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-13",
+      "ISO-A.7.2"
+    ]
+  },
+  {
+    "id": "CMMC-IR-071",
+    "framework": "CMMC",
+    "domain": "IR",
+    "title": "IR Control 71",
+    "description": "Prototype description for CMMC IR control 71.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-1",
+      "ISO-A.12.9"
+    ]
+  },
+  {
+    "id": "NIST-MA-072",
+    "framework": "NIST 800-171",
+    "domain": "MA",
+    "title": "MA Control 72",
+    "description": "Prototype description for NIST 800-171 MA control 72.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "System Owner",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-15"
+    ]
+  },
+  {
+    "id": "ISO-MP-073",
+    "framework": "ISO 27001",
+    "domain": "MP",
+    "title": "MP Control 73",
+    "description": "Prototype description for ISO 27001 MP control 73.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-8",
+      "ISO-A.8.3"
+    ]
+  },
+  {
+    "id": "SOC-PE-074",
+    "framework": "SOC 2",
+    "domain": "PE",
+    "title": "PE Control 74",
+    "description": "Prototype description for SOC 2 PE control 74.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Compliance Office",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-16",
+      "ISO-A.16.1"
+    ]
+  },
+  {
+    "id": "PCI-PS-075",
+    "framework": "PCI DSS",
+    "domain": "PS",
+    "title": "PS Control 75",
+    "description": "Prototype description for PCI DSS PS control 75.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-6",
+      "ISO-A.14.8"
+    ]
+  },
+  {
+    "id": "CMMC-RA-076",
+    "framework": "CMMC",
+    "domain": "RA",
+    "title": "RA Control 76",
+    "description": "Prototype description for CMMC RA control 76.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-11",
+      "ISO-A.10.9"
+    ]
+  },
+  {
+    "id": "NIST-SC-077",
+    "framework": "NIST 800-171",
+    "domain": "SC",
+    "title": "SC Control 77",
+    "description": "Prototype description for NIST 800-171 SC control 77.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-14"
+    ]
+  },
+  {
+    "id": "ISO-SI-078",
+    "framework": "ISO 27001",
+    "domain": "SI",
+    "title": "SI Control 78",
+    "description": "Prototype description for ISO 27001 SI control 78.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.9.8"
+    ]
+  },
+  {
+    "id": "SOC-AC-079",
+    "framework": "SOC 2",
+    "domain": "AC",
+    "title": "AC Control 79",
+    "description": "Prototype description for SOC 2 AC control 79.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-10",
+      "ISO-A.9.1"
+    ]
+  },
+  {
+    "id": "PCI-AT-080",
+    "framework": "PCI DSS",
+    "domain": "AT",
+    "title": "AT Control 80",
+    "description": "Prototype description for PCI DSS AT control 80.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-10",
+      "ISO-A.14.5"
+    ]
+  },
+  {
+    "id": "CMMC-AU-081",
+    "framework": "CMMC",
+    "domain": "AU",
+    "title": "AU Control 81",
+    "description": "Prototype description for CMMC AU control 81.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-11",
+      "ISO-A.10.8"
+    ]
+  },
+  {
+    "id": "NIST-CM-082",
+    "framework": "NIST 800-171",
+    "domain": "CM",
+    "title": "CM Control 82",
+    "description": "Prototype description for NIST 800-171 CM control 82.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-3"
+    ]
+  },
+  {
+    "id": "ISO-IA-083",
+    "framework": "ISO 27001",
+    "domain": "IA",
+    "title": "IA Control 83",
+    "description": "Prototype description for ISO 27001 IA control 83.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.15.9"
+    ]
+  },
+  {
+    "id": "SOC-IR-084",
+    "framework": "SOC 2",
+    "domain": "IR",
+    "title": "IR Control 84",
+    "description": "Prototype description for SOC 2 IR control 84.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-19",
+      "ISO-A.7.8"
+    ]
+  },
+  {
+    "id": "PCI-MA-085",
+    "framework": "PCI DSS",
+    "domain": "MA",
+    "title": "MA Control 85",
+    "description": "Prototype description for PCI DSS MA control 85.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-9",
+      "ISO-A.18.3"
+    ]
+  },
+  {
+    "id": "CMMC-MP-086",
+    "framework": "CMMC",
+    "domain": "MP",
+    "title": "MP Control 86",
+    "description": "Prototype description for CMMC MP control 86.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "IT Ops",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.5.3"
+    ]
+  },
+  {
+    "id": "NIST-PE-087",
+    "framework": "NIST 800-171",
+    "domain": "PE",
+    "title": "PE Control 87",
+    "description": "Prototype description for NIST 800-171 PE control 87.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-7"
+    ]
+  },
+  {
+    "id": "ISO-PS-088",
+    "framework": "ISO 27001",
+    "domain": "PS",
+    "title": "PS Control 88",
+    "description": "Prototype description for ISO 27001 PS control 88.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-19",
+      "ISO-A.16.2"
+    ]
+  },
+  {
+    "id": "SOC-RA-089",
+    "framework": "SOC 2",
+    "domain": "RA",
+    "title": "RA Control 89",
+    "description": "Prototype description for SOC 2 RA control 89.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-15",
+      "ISO-A.10.7"
+    ]
+  },
+  {
+    "id": "PCI-SC-090",
+    "framework": "PCI DSS",
+    "domain": "SC",
+    "title": "SC Control 90",
+    "description": "Prototype description for PCI DSS SC control 90.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "Security Team",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.5.2"
+    ]
+  },
+  {
+    "id": "CMMC-SI-091",
+    "framework": "CMMC",
+    "domain": "SI",
+    "title": "SI Control 91",
+    "description": "Prototype description for CMMC SI control 91.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-12",
+      "ISO-A.11.5"
+    ]
+  },
+  {
+    "id": "NIST-AC-092",
+    "framework": "NIST 800-171",
+    "domain": "AC",
+    "title": "AC Control 92",
+    "description": "Prototype description for NIST 800-171 AC control 92.",
+    "status": "in_progress",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-12"
+    ]
+  },
+  {
+    "id": "ISO-AT-093",
+    "framework": "ISO 27001",
+    "domain": "AT",
+    "title": "AT Control 93",
+    "description": "Prototype description for ISO 27001 AT control 93.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-13",
+      "ISO-A.9.4"
+    ]
+  },
+  {
+    "id": "SOC-AU-094",
+    "framework": "SOC 2",
+    "domain": "AU",
+    "title": "AU Control 94",
+    "description": "Prototype description for SOC 2 AU control 94.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "high",
+    "time": "short",
+    "owner": "IT Ops",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-19",
+      "ISO-A.16.9"
+    ]
+  },
+  {
+    "id": "PCI-CM-095",
+    "framework": "PCI DSS",
+    "domain": "CM",
+    "title": "CM Control 95",
+    "description": "Prototype description for PCI DSS CM control 95.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-17",
+      "ISO-A.14.5"
+    ]
+  },
+  {
+    "id": "CMMC-IA-096",
+    "framework": "CMMC",
+    "domain": "IA",
+    "title": "IA Control 96",
+    "description": "Prototype description for CMMC IA control 96.",
+    "status": "missing",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-19",
+      "ISO-A.11.5"
+    ]
+  },
+  {
+    "id": "NIST-IR-097",
+    "framework": "NIST 800-171",
+    "domain": "IR",
+    "title": "IR Control 97",
+    "description": "Prototype description for NIST 800-171 IR control 97.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-8"
+    ]
+  },
+  {
+    "id": "ISO-MA-098",
+    "framework": "ISO 27001",
+    "domain": "MA",
+    "title": "MA Control 98",
+    "description": "Prototype description for ISO 27001 MA control 98.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "IT Ops",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-2",
+      "ISO-A.7.8"
+    ]
+  },
+  {
+    "id": "SOC-MP-099",
+    "framework": "SOC 2",
+    "domain": "MP",
+    "title": "MP Control 99",
+    "description": "Prototype description for SOC 2 MP control 99.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "high",
+    "time": "long",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.10.6"
+    ]
+  },
+  {
+    "id": "PCI-PE-100",
+    "framework": "PCI DSS",
+    "domain": "PE",
+    "title": "PE Control 100",
+    "description": "Prototype description for PCI DSS PE control 100.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "low",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-2",
+      "ISO-A.15.5"
+    ]
+  },
+  {
+    "id": "CMMC-PS-101",
+    "framework": "CMMC",
+    "domain": "PS",
+    "title": "PS Control 101",
+    "description": "Prototype description for CMMC PS control 101.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "high",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-16",
+      "ISO-A.8.1"
+    ]
+  },
+  {
+    "id": "NIST-RA-102",
+    "framework": "NIST 800-171",
+    "domain": "RA",
+    "title": "RA Control 102",
+    "description": "Prototype description for NIST 800-171 RA control 102.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-10"
+    ]
+  },
+  {
+    "id": "ISO-SC-103",
+    "framework": "ISO 27001",
+    "domain": "SC",
+    "title": "SC Control 103",
+    "description": "Prototype description for ISO 27001 SC control 103.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-20",
+      "ISO-A.7.5"
+    ]
+  },
+  {
+    "id": "SOC-SI-104",
+    "framework": "SOC 2",
+    "domain": "SI",
+    "title": "SI Control 104",
+    "description": "Prototype description for SOC 2 SI control 104.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-15",
+      "ISO-A.9.2"
+    ]
+  },
+  {
+    "id": "PCI-AC-105",
+    "framework": "PCI DSS",
+    "domain": "AC",
+    "title": "AC Control 105",
+    "description": "Prototype description for PCI DSS AC control 105.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-19",
+      "ISO-A.8.7"
+    ]
+  },
+  {
+    "id": "CMMC-AT-106",
+    "framework": "CMMC",
+    "domain": "AT",
+    "title": "AT Control 106",
+    "description": "Prototype description for CMMC AT control 106.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Security Team",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.8.1"
+    ]
+  },
+  {
+    "id": "NIST-AU-107",
+    "framework": "NIST 800-171",
+    "domain": "AU",
+    "title": "AU Control 107",
+    "description": "Prototype description for NIST 800-171 AU control 107.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "System Owner",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-15"
+    ]
+  },
+  {
+    "id": "ISO-CM-108",
+    "framework": "ISO 27001",
+    "domain": "CM",
+    "title": "CM Control 108",
+    "description": "Prototype description for ISO 27001 CM control 108.",
+    "status": "complete",
+    "difficulty": "hard",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-2",
+      "ISO-A.7.5"
+    ]
+  },
+  {
+    "id": "SOC-IA-109",
+    "framework": "SOC 2",
+    "domain": "IA",
+    "title": "IA Control 109",
+    "description": "Prototype description for SOC 2 IA control 109.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "short",
+    "owner": "Compliance Office",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-4",
+      "ISO-A.15.1"
+    ]
+  },
+  {
+    "id": "PCI-IR-110",
+    "framework": "PCI DSS",
+    "domain": "IR",
+    "title": "IR Control 110",
+    "description": "Prototype description for PCI DSS IR control 110.",
+    "status": "missing",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 1,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-7",
+      "ISO-A.5.8"
+    ]
+  },
+  {
+    "id": "CMMC-MA-111",
+    "framework": "CMMC",
+    "domain": "MA",
+    "title": "MA Control 111",
+    "description": "Prototype description for CMMC MA control 111.",
+    "status": "missing",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "high",
+    "time": "long",
+    "owner": "Engineering",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-5",
+      "ISO-A.15.8"
+    ]
+  },
+  {
+    "id": "NIST-MP-112",
+    "framework": "NIST 800-171",
+    "domain": "MP",
+    "title": "MP Control 112",
+    "description": "Prototype description for NIST 800-171 MP control 112.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "high",
+    "personnel": "low",
+    "time": "short",
+    "owner": "System Owner",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-22"
+    ]
+  },
+  {
+    "id": "ISO-PE-113",
+    "framework": "ISO 27001",
+    "domain": "PE",
+    "title": "PE Control 113",
+    "description": "Prototype description for ISO 27001 PE control 113.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Compliance Office",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.9.7"
+    ]
+  },
+  {
+    "id": "SOC-PS-114",
+    "framework": "SOC 2",
+    "domain": "PS",
+    "title": "PS Control 114",
+    "description": "Prototype description for SOC 2 PS control 114.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "low",
+    "personnel": "high",
+    "time": "short",
+    "owner": "Engineering",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-10",
+      "ISO-A.5.3"
+    ]
+  },
+  {
+    "id": "PCI-RA-115",
+    "framework": "PCI DSS",
+    "domain": "RA",
+    "title": "RA Control 115",
+    "description": "Prototype description for PCI DSS RA control 115.",
+    "status": "in_progress",
+    "difficulty": "easy",
+    "cost": "high",
+    "personnel": "high",
+    "time": "long",
+    "owner": "IT Ops",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-16",
+      "ISO-A.11.2"
+    ]
+  },
+  {
+    "id": "CMMC-SC-116",
+    "framework": "CMMC",
+    "domain": "SC",
+    "title": "SC Control 116",
+    "description": "Prototype description for CMMC SC control 116.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Engineering",
+    "evidenceCount": 5,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-14",
+      "ISO-A.15.1"
+    ]
+  },
+  {
+    "id": "NIST-SI-117",
+    "framework": "NIST 800-171",
+    "domain": "SI",
+    "title": "SI Control 117",
+    "description": "Prototype description for NIST 800-171 SI control 117.",
+    "status": "complete",
+    "difficulty": "medium",
+    "cost": "medium",
+    "personnel": "medium",
+    "time": "medium",
+    "owner": "IT Ops",
+    "evidenceCount": 2,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "CMMC-AC-L2-10"
+    ]
+  },
+  {
+    "id": "ISO-AC-118",
+    "framework": "ISO 27001",
+    "domain": "AC",
+    "title": "AC Control 118",
+    "description": "Prototype description for ISO 27001 AC control 118.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "medium",
+    "personnel": "low",
+    "time": "medium",
+    "owner": "System Owner",
+    "evidenceCount": 3,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-17",
+      "ISO-A.9.8"
+    ]
+  },
+  {
+    "id": "SOC-AT-119",
+    "framework": "SOC 2",
+    "domain": "AT",
+    "title": "AT Control 119",
+    "description": "Prototype description for SOC 2 AT control 119.",
+    "status": "in_progress",
+    "difficulty": "hard",
+    "cost": "low",
+    "personnel": "high",
+    "time": "medium",
+    "owner": "Compliance Office",
+    "evidenceCount": 0,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-21",
+      "ISO-A.11.1"
+    ]
+  },
+  {
+    "id": "PCI-AU-120",
+    "framework": "PCI DSS",
+    "domain": "AU",
+    "title": "AU Control 120",
+    "description": "Prototype description for PCI DSS AU control 120.",
+    "status": "complete",
+    "difficulty": "easy",
+    "cost": "low",
+    "personnel": "medium",
+    "time": "long",
+    "owner": "Security Team",
+    "evidenceCount": 4,
+    "evidenceNeeded": 5,
+    "mappedControls": [
+      "NIST-AC-18",
+      "ISO-A.6.6"
+    ]
+  }
+]

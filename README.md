@@ -1,25 +1,30 @@
+# Atomic GRC Platform Starter
 
-# Atomic GRC Platform UI
+Static prototype for an Atomic GRC compliance dashboard.
 
-Prototype cockpit dashboard for a Governance, Risk, and Compliance platform.
+## Run locally
 
-## Structure
+### Option 1: Open directly
+Open `public/index.html` in a browser.
 
-atomic-grc-ui/
-│
-├── index.html
-├── monitoring.html
-├── assessments.html
-├── integrations.html
-├── docs.html
-│
-└── assets/
-    ├── css/
-    │   └── app.css
-    └── js/
-        ├── app.js
-        └── widgets.js
+### Option 2: Local server
+```bash
+cd atomic-grc-platform/public
+python -m http.server 8000
+```
+Then browse to `http://localhost:8000`
 
-## Run
+## Pages
+- `index.html` — Home / cockpit
+- `controls.html` — Control library
+- `heatmap.html` — Heatmap
+- `workflow.html` — Workflow
+- `governance.html` — Governance
+- `compliance.html` — Compliance mapping
+- `knowledge.html` — Knowledge management
+- `reports.html` — Reporting center
 
-Just open `index.html` in a browser.
+## Notes
+- Uses fake data from `../data/controls.json` and `../data/tasks.json`
+- Designed for GitHub starter use
+- Static only for version 1
